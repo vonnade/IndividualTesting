@@ -74,12 +74,6 @@ class Movies:
         return movieData
 
     @staticmethod
-    def checkFrequency():
-        encoder = Encoder()
-        tv = TV(encoder)
-        user_freq = input("What frequency is your video? ")
-
-    @staticmethod
     def playMovies():
         movieData = Movies.loadMovies()
         capturedOutput = StringIO()
